@@ -20,7 +20,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
                 <Meta /> {/* All 'meta' exports on all routes will render here */}
                 <Links /> {/* All 'link' exports on all routes will rendere here */}
             </head>
-            <body className="flex flex-col items-center justify-center w-full min-h-screen">
+            <body className="flex flex-col items-center justify-start w-full min-h-screen">
                 {/* children will be the root Component, ErrorBoundary, or HydrateFallback */}
                 {children}
                 <ScrollRestoration />
