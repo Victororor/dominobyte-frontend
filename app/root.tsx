@@ -6,7 +6,6 @@ import {
     Scripts, // 'dynamic' scripts
     ScrollRestoration,
 } from "react-router";
-
 import type { Route } from "./+types/root"; // some TS things
 import "./app.css";
 
