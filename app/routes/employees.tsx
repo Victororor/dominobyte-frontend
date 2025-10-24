@@ -33,7 +33,7 @@ export default function EmployeesPage() {
 
     // fetch data
     const payload = async () => {
-        const responce = await fetch('https://localhost:8000/employees/view_employees');
+        const responce = await fetch('https://localhost:8000/employees/view_employees', {method: "GET"});
         setData(await responce.json());
     }
 

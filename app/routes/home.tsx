@@ -20,7 +20,7 @@ export default function HomePage() {
             <ContentSection className="grid grid-cols-1 gap-3 justify-items-center items-stretch sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
                 <HomeCard imgURL="home_cards/assets_inventory.jpg" title="Asset inventory" description="List of devices per each user" href="" />
                 <HomeCard imgURL="home_cards/duty_register.jpg" title="Duty register" description="Extra hours, OnCalls" href="" />
-                <HomeCard imgURL="home_cards/hr_logon.jpg" title="Employees" description="List of all employees" href="" />
+                <HomeCard imgURL="home_cards/hr_logon.jpg" title="Employees" description="List of all employees" href="/employees" />
                 <HomeCard imgURL="home_cards/time_sheet.jpg" title="Time sheet" description="Roaster - see the current timesheet by department" href="" />
                 <HomeCard imgURL="home_cards/day_off_request.jpg" title="Day off request" description="PTO, day off, donation and all type day off requests" href="" />
                 <HomeCard imgURL="home_cards/status_per_year.jpg" title="Status per year" description="List the status per year" href="" />
